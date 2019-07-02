@@ -26,9 +26,8 @@ As we all know we can overwrite any property values in CSS, in a similar way we 
 
 ## 2. Block Vs Inline Vs Inline-Block
 
----
+### Block
 
-Block
 A block level elements accept all the box-model(which we will discuss soon) properties and values. To convert any element into a block level element we just need to change its display property.
 
 ```
@@ -396,4 +395,10 @@ The Developer tools are one most frequently used tool by the developer. There ar
 3. What are the different box model properties?
 4. How to calculate the exact width and height of an element?
 
-## Do the exercise
+## Do the exercise1
+
+## Additional Resources
+
+1. https://learn.shayhowe.com/html-css/opening-the-box-model/
+
+- https://internetingishard.com/html-and-css/css-box-model/
