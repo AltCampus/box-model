@@ -388,7 +388,7 @@ After clicking that button you can select any element on the page by clicking on
 This is known as the real box model of an element on a page. Here you will find all box model properties(width, height, padding, borders, and margins) defined for the element. This box model defines the exact size of the box on a page.
 The Developer tools are one most frequently used tool by the developer. There are a lot more things can be done in developer tools. Slowly and gradually we will get to know about those things.
 
-## Ask Them
+## Answer the following questions
 
 1. Why do we need to learn the box model?
 2. What are the different display properties?
