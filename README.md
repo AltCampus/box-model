@@ -20,9 +20,9 @@ Before we directly jump to box model we will start with display properties of an
 
 ## 1. Display properties
 
-In the earlier discussion, we know that by default there are two types elements, block-level elements, and inline-level elements. We have seen the difference between both the elements. We also covered block-level elements always starts from a new line and takes the available width and inline-level elements take the space as much as it requires according to the content and lines up one after the other.
-In an HTML document, the block-level or the inline-level elements or something else, are all determined by the display property. So, according to that, every element has a default display property value. It can be block, inline, inline-block, and none. There are a few more which we will discuss later on, for now, let's cover all these four display property values.
-As we all know we can overwrite any property values in CSS, in a similar way we can also overwrite the default display property values. It means we can block to inline or inline-block and inline to block or inline-block etc. Let's see how we can do this.
+From the earlier discussion, we know that by default there are two types elements, block-level elements, and inline-level elements. We have seen the difference between them. We also covered block-level elements always starts from a new line and takes the available width and inline-level elements take the space as much as it requires according to the content and lines up one after the other.
+In an HTML document, the block-level or the inline-level elements or something else, are all determined by the display property. Therefore, every element has a default display property value. It can be block, inline, inline-block, and none. There are a few more which we will discuss later on, for now, let's cover all these four display property values.
+As we all know we can overwrite any property values in CSS, in a similar way we can also overwrite the default display property values. It means we can make block to inline or inline-block and inline to block or inline-block etc. Let's see how we can do this.
 
 ## 2. Block Vs Inline Vs Inline-Block
 
@@ -40,7 +40,7 @@ By default, span is inline-level elements but now as we have changed its display
 
 ### Inline
 
-To make any element behave like inline-level elements we can its display properties.
+To make any element behave like inline-level elements we can change its display properties.
 
 ```
   p {
@@ -60,7 +60,7 @@ An inline-level element does not accept all the box-model properties and values.
   }
 ```
 
-With the inline-block value we can make the element behave like inline level, means the element will take the space according to the content and will come one after one instead of taking whole available width and starting from a new line. But at the same time, it will accept all the box-model properties like block level elements.
+With the inline-block value we can make the element behave like inline level, means the element will take the space according to the content and will line up one after one instead of taking whole available width and starting from a new line. But at the same time, it will also accept all the box-model properties like block level elements.
 
 ### Removing Space between the inline-block elements.
 
@@ -120,7 +120,7 @@ It is a personal choice which way we should choose, it is entirely on you. All o
 
 To hide any element from the page we can set its display property value 'none'. So when the page will render the element will be hidden as if that element does not exist in the HTML document.
 
-We have been listening about the box-model properties and values from the beginning. So let's begin our discussion on the box-model. But we will come back again to discuss and compare the elements(block, inline, inline-block) based on the box model properties.
+We have been listening about the box-model properties and values from the beginning. So let's begin our discussion on the box-model.
 
 ## 3. Box Model
 
@@ -161,7 +161,7 @@ Padding comes after width and height and falls inside the element's border. Here
   }
 ```
 
-The padding property is applied to provide space within an element around the content. Sometimes it is also called breathing space around the content inside the element.
+The padding property is applied to provide space around the content, within an element . Sometimes it is also called breathing space around the content inside the element.
 In the above code `20px` of padding has been applied therefore there will be a space of 20px around the content in the box.
 For the block and inline-block elements, padding works normally. But when it comes to applying padding for inline-level elements, it works a bit differently. The vertical padding( top and bottom) may blend into the line of above and below elements but will be displayed. The left and right padding will work normally.
 
@@ -333,9 +333,7 @@ Margin declarations are exactly similar to padding. Whatever ways we have seen t
   }
 ```
 
-We have covered all the basic key points of the box model. Let's compare all the three elements(block, inline, inline-block) based on these properties(width, height, padding, borders, and margins).
-
-## 9. Table of comparison between block, inline, and inline-block.
+We covered almost all the topics of box model. Now based on that let's calculate the exact size of an element.
 
 ## 10. Calculating the width and height of an element.
 
